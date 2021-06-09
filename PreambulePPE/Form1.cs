@@ -86,5 +86,11 @@ namespace PreambulePPE
         {
             this.DialogResult = DialogResult.Cancel;
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

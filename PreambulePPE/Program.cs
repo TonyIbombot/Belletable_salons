@@ -20,6 +20,8 @@ namespace PreambulePPE
             Application.SetCompatibleTextRenderingDefault(false);
             Login MonFormLogin = new Login();
             MonFormLogin.ShowDialog();
+            //Test test = new Test();
+            //test.ShowDialog();
             if (MonFormLogin.DialogResult == DialogResult.OK)
             {
                 MonFormLogin.Close();

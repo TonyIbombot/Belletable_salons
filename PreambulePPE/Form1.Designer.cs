@@ -137,6 +137,7 @@
             this.Controls.Add(this.tb_log);
             this.Name = "Login";
             this.Text = "Préambule PPE";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

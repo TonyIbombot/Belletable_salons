@@ -23,11 +23,6 @@ namespace PreambulePPE
             TB_nom.Text = Admin.nom;
             TB_prenom.Text = Admin.prenom;
             
-
-            if (Admin.admin == "1")
-            {
-                radioButton1.Checked = true;
-            }
             if (Admin.admin == "2")
             {
                 radioButton2.Checked = true;
